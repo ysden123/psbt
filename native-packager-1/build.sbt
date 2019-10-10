@@ -7,7 +7,7 @@ lazy val loggingVersion = "2.12.0"
 lazy val zeebeClientVersion = "0.20.0"
 
 lazy val projectVersion = "1.0.0"
-lazy val projectName = "native-package-1"
+lazy val projectName = "native-packager-1"
 
 lazy val commonSettings = Seq(
   organization := "com.stulsoft",
