@@ -1,5 +1,7 @@
 = native-packager-1
 
+Demonstrates usage of sbt-native-packager plugin.
+
 Builds two folders:
 
  - bin - contains scripts to run a _Main_ class
