@@ -1,5 +1,7 @@
 = native-packager-1
 
+Demonstrates usage of sbt-native-packager plugin.
+
 Builds two folders:
 
  - bin - contains scripts to run a _Main_ class
@@ -7,7 +9,7 @@ Builds two folders:
 
 == How to build
 === Prepare JARs
-Rum command:
+Run command:
 [source,shell script]
 sbt stage
 

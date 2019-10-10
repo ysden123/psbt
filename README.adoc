@@ -5,3 +5,8 @@ Playing with sbt.
 Examples of projects with using sbt.
 
 Creating fat JAR files.
+
+== native-packager-1
+Demonstrates usage of sbt-native-packager plugin.
+
+See link:native-packager-1/README.adoc[native-packager-1]
