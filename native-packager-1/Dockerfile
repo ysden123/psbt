@@ -2,10 +2,14 @@ FROM openjdk:8-jre-alpine
 
 # Install bash
 RUN apk add --no-cache bash
+ARG APP_NAME=native-packager-1
 
-ENV APPLICATION_HOME /usr/apps/native-packager-1
+ENV APP_NAME $APP_NAME
+
+ENV APPLICATION_HOME /usr/apps/$APP_NAME
 
 COPY target/universal/stage $APPLICATION_HOME/
 
 WORKDIR $APPLICATION_HOME/bin
-CMD ["./native-packager-1"]
+ENTRYPOINT ["sh", "-c"]
+CMD ["exec ./$APP_NAME"]
