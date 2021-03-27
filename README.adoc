@@ -6,7 +6,16 @@ Examples of projects with using sbt.
 
 Creating fat JAR files.
 
+A usage the integration with source code from Git.
+
 == native-packager-1
+
 Demonstrates usage of sbt-native-packager plugin.
 
 See link:native-packager-1/README.adoc[native-packager-1]
+
+== projref
+
+Demonstrates usage the integration with source code from Git - RootProject
+
+See link:projref/README.adoc[projref]

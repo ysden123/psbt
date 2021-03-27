@@ -1,0 +1,3 @@
+= projref
+
+Demonstrates usage the integration with source code from Git - RootProject
